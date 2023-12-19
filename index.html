@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="これはJavaScriptの課題作品です。">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
+  <title>木の家づくり表彰作品</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-index wrapper">
+      <div class="navbtn js-navbtn">
+        <span class="btn-line"></span>
+      </div>
+      <div class="header-nav-img">
+        <nav>
+          <ul class="menu-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#grandprize">最優秀賞</a></li>
+            <li><a href="#work">作品集</a></li>
+          </ul>
+        </nav>
+        <div class="img-logo">
+          <img src="images/logo.png" alt="ロゴ">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section><!-- hero-img -->
+    <div class="hero">
+      <div class="hero-container">
+        <div class="hero-image">
+          <img src="images/hero-004.jpg" alt="メイン画像" id="slide_img">
+        </div>
+        <div class="hero-title">
+          <img src="images/title.png" alt="木の家づくり表彰作品タイトル">
+        </div>
+      </div>
+    </div>
+  </section><!-- /hero-img -->
+
+
+  <section id="about" class="wrapper move-on"><!-- about -->
+    <img src="images/about.png" alt="はじめに" class="title-logo">
+    <h2><span>はじめに</span></h2>
+    <p>
+      前職で木材の地産証明の業務を担当していた私は、その延長で地域産材を使った住宅の表彰事業を担当しました。<br>
+      予算に余裕がなく、最終の印刷のみ業者に依頼し、残りの募集チラシ、ポスター、冊子構成、校正は私が担当しました。<br>
+      職業訓練でHTML/CSS/JavaScriptを使用して課題制作の機会があり、もしホームページがあったらを想定してこのサイトを制作しました。
+    </p>
+    <h2><span>審査員総評</span></h2>
+    <p>
+      審査員名や住所はWebで検索しても一致しないように作成しています。<br>
+      ホームページのJavaScriptの使用箇所は、バーガーメニュー/スライドショー/最優秀賞の画像をモーダルウィンドウで拡大表示（レスポンシブ対応）/トップページボタン/スクロールに応じて画像や文章がふわっと出てくる箇所です。<br>
+      作品集のスライドショーには、Slickプラグインを使用しました。<br>
+      JavaScriptのプラグインは、カスタマイズが便利で品質もいい面もありますが、アップデートで動かなくなる場合もあるため、最低限の使用にとどめています。<br>
+      また、プラグインを使用するのではなく、自分でJavaScriptを記述することで、より理解を深めることができると考えました。
+    </p>
+    <div class="about-dl">
+      <dl>
+        <dt>委員長</dt>
+        <dd>霜島孝蔵（亜羅希大学名誉教授/一般社団法人亜羅希県建築士会会長）</dd>
+
+        <dt>委員</dt>
+        <dd>戸城信良（上江田大学理工学部大学院教授/一般社団法人亜羅希県建築士会副会長）</dd>
+        <dd>安増善貴（木構造協同組合相談役）</dd>
+        <dd>福徳弥三郎（亜羅希県森林組合連合会専務理事）</dd>
+        <dd>定井正子（亜羅希県農林水産部森づくり振興室部長）</dd>
+        <dd>新国彩枝（NPO法人木の家住まいの快適推進協議会事務局長）</dd>
+      </dl>
+    </div>
+  </section><!-- /about move-on-->
+
+
+  <div class="box-color move-on">
+    <section id="grandprize" class="wrapper"><!-- 最優秀賞 -->
+      <img src="images/grandprize.png" alt="最優秀賞" class="title-logo">
+      <div class="h3-style">
+        <h3>最優秀賞・知事賞</h3>
+      </div>
+      <h4>茨ヶ島の家</h4>
+
+      <div class="grid">
+        <div class="item big-box" data-modal="modalOne">
+          <img src="images/grid-01.jpg" alt="最優秀賞1">
+        </div>
+
+        <div class="modalItem">
+          <img src="images/grid-01m.jpg" alt="最優秀賞1">
+        </div>
+
+        <div class="item">
+          <img src="images/grid-02.jpg" alt="最優秀賞2">
+        </div>
+
+        <div class="modalItem">
+          <img src="images/grid-02m.jpg" alt="最優秀賞2">
+        </div>
+
+        <div class="item">
+          <img src="images/grid-03.jpg" alt="最優秀賞3">
+        </div>
+        <div class="modalItem">
+          <img src="images/grid-03m.jpg" alt="最優秀賞3">
+        </div>
+
+        <div class="item">
+          <img src="images/grid-04.jpg" alt="最優秀賞4">
+        </div>
+        <div class="modalItem">
+          <img src="images/grid-04m.jpg" alt="最優秀賞4">
+        </div>
+
+        <div class="item">
+          <img src="images/grid-05.jpg" alt="最優秀賞5">
+        </div>
+        <div class="modalItem">
+          <img src="images/grid-05m.jpg" alt="最優秀賞5">
+        </div>
+
+      </div><!-- /.grid -->
+
+      <div class="info-shop">
+        <img src="images/map.png" alt="地図イラスト">
+        <dl>
+          <dt>
+            設計
+          </dt>
+          <dd>荒居アーキテクチャ一級建築士事務所</dd>
+          <dd>大阪府大阪市茨ヶ島5丁目1-1-1</dd>
+          <div class="home-tag">
+            <span><a href="#">Home</a></span>
+          </div>
+
+        </dl>
+        <dl>
+          <dt>
+            施工
+          </dt>
+          <dd>株式会社荒居井工務店</dd>
+          <dd>大阪府大阪市荒居井1丁目4-15 </dd>
+          <div class="home-tag">
+            <span><a href="#">Home</a></span>
+          </div>
+
+        </dl>
+      </div>
+      <p>
+        ショッピングモールで、受賞されたポスターと冊子を掲示したところ、老夫婦から「住宅を建てる予定はないが、とても素敵な家ばかりだから冊子をもらってもいいですか」と尋ねられたことが印象に残っています。<br>
+        また、行政の部長さんもこの冊子を見て、「こんな素晴らしい冊子があるのだからもっと配布してほしい」とお褒めの言葉をいただきました。<br>
+        一番評判の良かった冊子でした。
+      </p>
+    </section><!-- /最優秀賞 -->
+  </div><!-- /box-color move-on -->
+
+
+
+  <section id="work" class="wrapper move-on"><!-- 作品集 -->
+    <img src="images/woodenhouse.png" alt="木造住宅ロゴ" class="title-logo">
+    <h2><span>表彰作品集</span></h2>
+    <div class="slider">
+      <div><img src="images/page-0001.jpg" alt="1ページ"></div>
+      <div><img src="images/page-0002.jpg" alt="2ページ"></div>
+      <div><img src="images/page-0003.jpg" alt="3ページ"></div>
+      <div><img src="images/page-0004.jpg" alt="4ページ"></div>
+      <div><img src="images/page-0005.jpg" alt="5ページ"></div>
+    </div>
+  </section><!-- /作品集 move-on -->
+
+  <section class="wrapper move-on"><!-- 募集要項 move-on -->
+    <h2 class="bosyu-h2"><span>募集要項</span></h2>
+    <p class="bosyu">※今年度の募集は終了終了しております</p>
+    <dl class="accordion">
+      <dt class="menu open-close">応募資格</dt>
+      <dd class="contents">
+        平成28年4月1日以降に建築された地域産材を使用した木造住宅を設計・施工した建築士、工務店、ハウスメーカー
+      </dd>
+    </dl>
+    <dl class="accordion">
+      <dt class="menu open-close">応募方法</dt>
+      <dd class="contents">
+        設計図書（平面図、立面図、断面図、模型など）<br>
+        竣工写真（外観、内観など）<br>
+        作品解説書（住宅の特徴や設計意図など）<br>
+        必要事項を記入の上、作品の画像や図面等を添付して、郵送またはメールにて提出
+      </dd>
+    </dl>
+  </section><!-- /募集要項 move-on -->
+
+  <div id="pagetop"></div><!-- js/トップページアイコン -->
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-nav">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#grandprize">最優秀賞</a></li>
+            <li><a href="#work">作品集</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sponsor">
+        <dl>
+          <dt>主催</dt>
+          <dd>NPO法人木の家住まいの快適推進協議会</dd>
+        </dl>
+        <dl>
+          <dt>共催</dt>
+          <dd>亜羅希県農林水産部森づくり振興課</dd>
+        </dl>
+        <dl>
+          <dt>後援</dt>
+          <dd>一般社団法人亜羅希県建築士会</dd>
+          <dd>木構造協同組合役</dd>
+          <dd>亜羅希県森林組合連合会</dd>
+        </dl>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <!--slickプラグイン-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script>
+    'use strict';
+
+    //slickプラグイン
+    $('.slider').slick({
+      autoplay: false,       //自動再生
+      autoplaySpeed: 4000,  //自動再生のスピード
+      speed: 800,           //スライドするスピード
+      dots: true,           //スライド下のドット
+      arrows: true,         //左右の矢印
+      infinite: true,       //永久にループさせる
+    });
+
+
+
+  </script>
+
+</body>
+
+</html>
